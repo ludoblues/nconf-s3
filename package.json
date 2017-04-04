@@ -1,0 +1,23 @@
+{
+  "name": "nconf-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludoblues/nconf-s3.git"
+  },
+  "author": "ludoblues <ludovic.vue@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ludoblues/nconf-s3/issues"
+  },
+  "homepage": "https://github.com/ludoblues/nconf-s3#readme",
+  "dependencies": {
+    "aws-sdk": "^2.37.0",
+    "nconf": "^0.8.4"
+  }
+}
