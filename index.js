@@ -15,6 +15,8 @@ class S3Plugin extends Memory {
     this.bucket = options.bucket;
     this.key = options.key || 'config.json';
     this.format = options.format || nconf.formats.json;
+    
+    this.loadSync = undefined;
   }
 
   load(callback) {
